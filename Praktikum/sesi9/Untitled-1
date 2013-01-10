@@ -1,0 +1,11 @@
+package belajar.exception;
+
+import java.io.File;
+
+public class FileManager{
+	private FileReader file;
+	
+	public void buka(String nama){
+		file = new FileReader nama; 
+	}
+}
